@@ -1,14 +1,14 @@
 // Automatically generates a header for each page
 
 const headerTemplate = {
-  title: "Tej Roberts",
+  title: "Remnants of a Modern World",
   titleClick: () => goto("/index.html"),
   content: "A personal blog containing projects I've developed over the years.",
   navStyle: "button",
   titleStyle: "h1",
   nav: [
     {
-      title: "About",
+      title: "About us",
       href: "html/about.html",
     },
     {
@@ -16,7 +16,7 @@ const headerTemplate = {
       href: "html/gallery.html",
     },
     {
-      title: "Projects",
+      title: "Remnants",
       href: "index.html",
     },
     {
@@ -33,7 +33,7 @@ const headerTemplate = {
 };
 
 const footerTemplate = {
-  title: "Find me elsewhere …",
+  title: "Developer Contact",
   navStyle: "button",
   titleStyle: "h4",
   nav: [
@@ -41,21 +41,6 @@ const footerTemplate = {
       title: "Email",
       href: "mailto:ten3roberts@gmail.com",
       faicon: "envelope",
-    },
-    {
-      title: "Github",
-      href: "https://github.com/ten3roberts",
-      faicon: "github",
-    },
-    {
-      title: "Gitlab",
-      href: "https://gitlab.com/ten3roberts",
-      faicon: "gitlab",
-    },
-    {
-      title: "LinkedIn",
-      href: "https://www.linkedin.com/in/tim-roberts-b70a2b222",
-      faicon: "linkedin",
     },
   ],
 };
