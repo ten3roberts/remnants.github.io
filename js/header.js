@@ -21,7 +21,7 @@ const headerTemplate = {
     },
     {
       title: "Github",
-      href: "https://github.com/remnants",
+      href: "https://github.com/ten3roberts/remnants",
       faicon: "github",
     },
   ],
