@@ -1,20 +1,54 @@
 let currentImage = 0;
 
 let images = [
-  { src: "../img/pbr.png", caption: "PBR rendering in Ivy game engine" },
   {
-    src: "../img/collision.png",
-    caption: "GJK and EPA collision system in Ivy",
+    src: "../img/alarm.jpg",
+    caption: "Alarm ",
   },
   {
-    src: "../img/gizmos_dark.png",
-    caption: "Gizmos system with darkened color when occluded",
+    src: "../img/squid.jpg",
+    caption: "Unknown",
   },
   {
-    src: "../img/light.png",
-    caption: "Visualization of light sources in post processing",
+    src: "../img/small.jpg",
+    caption: "Stationary monster",
   },
-  { src: "../img/text_rendering.png", caption: "TTF text rendering" },
+  {
+    src: "../img/sound.jpg",
+    caption: "Sound based monster",
+  },
+  {
+    src: "../img/sound1.jpg",
+    caption: "closer look on sound based monster",
+  },
+  {
+    src: "../img/spider.jpg",
+    caption: "closer look on vision based monster",
+  },
+  {
+    src: "../img/spider1.jpg",
+    caption: "Vision based monster",
+  },
+  {
+    src: "../img/strong.jpg",
+    caption: "Brute",
+  },
+  {
+    src: "../img/ugly.jpg",
+    caption: "Experiment A",
+  },
+  {
+    src: "../img/level1.jpg",
+    caption: "First level",
+  },
+  {
+    src: "../img/level2.jpg",
+    caption: "Second level",
+  },
+  {
+    src: "../img/level3.jpg",
+    caption: "Third level",
+  },
 ];
 
 let frame = document.getElementById("slideshow");
@@ -70,4 +104,4 @@ function updateIndicator() {
 
 nextImage();
 
-setInterval(slideshow, 2500);
+setInterval(slideshow, 5000);
