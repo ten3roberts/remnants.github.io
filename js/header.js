@@ -3,7 +3,7 @@
 const headerTemplate = {
   title: "Remnants of a Modern World",
   titleClick: () => goto("/index.html"),
-  content: "A personal blog containing projects I've developed over the years.",
+  content: "What is left in a dystopian future",
   navStyle: "button",
   titleStyle: "h1",
   nav: [
@@ -21,13 +21,8 @@ const headerTemplate = {
     },
     {
       title: "Github",
-      href: "https://github.com/ten3roberts",
+      href: "https://github.com/remnants",
       faicon: "github",
-    },
-    {
-      title: "Gitlab",
-      href: "https://gitlab.com/ten3roberts",
-      faicon: "gitlab",
     },
   ],
 };
