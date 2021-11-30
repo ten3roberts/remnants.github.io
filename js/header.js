@@ -8,7 +8,7 @@ const headerTemplate = {
   titleStyle: "h1",
   nav: [
     {
-      title: "About us",
+      title: "About",
       href: "html/about.html",
     },
     {
